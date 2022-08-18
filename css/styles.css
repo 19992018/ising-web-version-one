@@ -138,9 +138,20 @@ p{
   display: block;
 }
 
+.title-div{
+  height: 100%;
+}
+
+.intro-paragraph{
+  height: 100%;
+}
+
 
 
 /* Title image */
+.welcome-message{
+  display: none;
+}
 
 .title-image{
   width: 90%;
@@ -153,11 +164,13 @@ p{
 
 .image-one{
   margin: auto;
+  height: 100%;
 }
+
 
 /* Features Section */
 #features{
-
+/* padding-top: 20%; */
 height: 100%;
    /* position: relative; */
   /* z-index: 1; */
@@ -251,11 +264,11 @@ margin: 20px 20px 50px;
 
 }
 
-#footer{
+/* #footer{
 
-  /* margin-top: 1rem; ...good job*/
+   margin-top: 1rem; ...good job
 
-}
+} */
 
 /* .social-icon{
   margin
@@ -286,11 +299,45 @@ margin: 20px 20px 50px;
     text-align: center;
   }
 
-  .title-image{
-    position: static;
+  .intro-paragraph{
+    /* height: 70vh; */
+    padding: 50% 20%;
+  }
+
+  .welcome-message{
+    display: block;
+    padding-bottom: 10%;
+  }
+
+  .image-one{
+    /* position: static;
     transform: rotate(0);
     padding-top: 2rem;
-    display: inline-flex;
+    display: inline-flex; */
+    /* height: 70vh; */
+    padding: 50% 20%;
+
+  }
+
+  .title-image{
+    width: 60%;
+  }
+
+  .title-divider{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #fff;
+    border-width: 5px;
+    width: 40%;
+  }
+
+  #cta{
+    padding: 35% 15%;
+
+  }
+
+  .download-button2{
+    width: 100%;
   }
 
   /* .nav-link{
@@ -302,9 +349,9 @@ margin: 20px 20px 50px;
 
   } */
 
-  .target-height{
+  /* .target-height{
     height: 600px;
-  }
+  } */
 
 
 
